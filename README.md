@@ -1,5 +1,7 @@
 # rubiks cube timer
 
+https://christopher-yue.github.io/rubikscubetimer/
+
 This application currently only works on mobile devices.  The purose is to create a stopwatch that makes it easier to find out how fast you can solvea rubiks cube
 
 Once you are ready to start solving the cube, place your finger on the screen and as soon as you release your finger from the screen the stopwatch will start
