@@ -22,32 +22,30 @@ export function Timer() {
     const start = (e) => {
       setInterv(setInterval(run, 10));
       setStatus(1);
-      console.log("start");
     };
 
     const stop = (e) => {
       clearInterval(interv);
       setStatus(2);
-      console.log("stop");
     };
 
     const reset = (e) => {
       clearInterval(interv);
       setTime(0);
       setStatus(0);
-      console.log("reset");
     };
 
     if (status === 0) {
       document.body.addEventListener("touchend", start);
       return () => document.body.removeEventListener("touchend", start);
     } else if (status === 1) {
-      document.body.addEventListener("click", stop);
+      document.body.addEventListener("touchend", stop);
       return () => document.body.removeEventListener("touchend", stop);
     } else if (status === 2) {
-      document.body.addEventListener("click", reset);
+      document.body.addEventListener("touchend", reset);
       return () => document.body.removeEventListener("touchend", reset);
     }
+
     return () => clearInterval(interval);
   });
 
