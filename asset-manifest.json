@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rubikscubetimer/static/css/main.de5356ac.css",
+    "main.js": "/rubikscubetimer/static/js/main.cea48227.js",
+    "static/js/787.28cb0dcd.chunk.js": "/rubikscubetimer/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/rubikscubetimer/index.html",
+    "main.de5356ac.css.map": "/rubikscubetimer/static/css/main.de5356ac.css.map",
+    "main.cea48227.js.map": "/rubikscubetimer/static/js/main.cea48227.js.map",
+    "787.28cb0dcd.chunk.js.map": "/rubikscubetimer/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de5356ac.css",
+    "static/js/main.cea48227.js"
+  ]
+}
