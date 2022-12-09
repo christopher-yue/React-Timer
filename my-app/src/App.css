@@ -30,8 +30,10 @@ body {
 
 .clock-holder {
   width: 100%;
+  background: #fff;
   margin: 30px auto;
   position: relative;
+  border-radius: 1rem;
 }
 
 .stopwatch {
