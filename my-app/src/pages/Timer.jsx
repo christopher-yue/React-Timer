@@ -46,6 +46,17 @@ export function Timer() {
       return () => document.body.removeEventListener("touchend", reset);
     }
 
+    // if (status === 0) {
+    //   document.body.addEventListener("click", start);
+    //   return () => document.body.removeEventListener("click", start);
+    // } else if (status === 1) {
+    //   document.body.addEventListener("click", stop);
+    //   return () => document.body.removeEventListener("click", stop);
+    // } else if (status === 2) {
+    //   document.body.addEventListener("click", reset);
+    //   return () => document.body.removeEventListener("click", reset);
+    // }
+
     return () => clearInterval(interval);
   });
 

@@ -30,7 +30,6 @@ body {
 
 .clock-holder {
   width: 100%;
-  background: #fff;
   margin: 30px auto;
   position: relative;
 }
@@ -43,9 +42,9 @@ body {
   background: #00aba9;
   color: #fff;
   display: inline-block;
-  font-family: monospace;
-  font-size: 22px;
+  font-family: "Kanit", sans-serif;
+  font-size: 3rem;
   padding: 20px;
-  border-radius: 5px;
-  width: 70px;
+  border-radius: 1rem;
+  width: 6.5rem;
 }
