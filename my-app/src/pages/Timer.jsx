@@ -39,11 +39,11 @@ export function Timer() {
       document.body.addEventListener("touchend", start);
       return () => document.body.removeEventListener("touchend", start);
     } else if (status === 1) {
-      document.body.addEventListener("touchstart", stop);
-      return () => document.body.removeEventListener("touchstart", stop);
+      document.body.addEventListener("touchend", stop);
+      return () => document.body.removeEventListener("touchend", stop);
     } else if (status === 2) {
-      document.body.addEventListener("touchstart", reset);
-      return () => document.body.removeEventListener("touchstart", reset);
+      document.body.addEventListener("touchend", reset);
+      return () => document.body.removeEventListener("touchend", reset);
     }
 
     // if (status === 0) {
