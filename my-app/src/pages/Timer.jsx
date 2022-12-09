@@ -42,8 +42,8 @@ export function Timer() {
       document.body.addEventListener("touchstart", stop);
       return () => document.body.removeEventListener("touchstart", stop);
     } else if (status === 2) {
-      document.body.addEventListener("touchend", reset);
-      return () => document.body.removeEventListener("touchend", reset);
+      document.body.addEventListener("touchstart", reset);
+      return () => document.body.removeEventListener("touchstart", reset);
     }
 
     // if (status === 0) {
