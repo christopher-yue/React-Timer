@@ -35,27 +35,28 @@ export function Timer() {
       setStatus(0);
     };
 
-    if (status === 0) {
-      document.body.addEventListener("touchend", start);
-      return () => document.body.removeEventListener("touchend", start);
-    } else if (status === 1) {
-      document.body.addEventListener("touchend", stop);
-      return () => document.body.removeEventListener("touchend", stop);
-    } else if (status === 2) {
-      document.body.addEventListener("touchend", reset);
-      return () => document.body.removeEventListener("touchend", reset);
-    }
-
     // if (status === 0) {
-    //   document.body.addEventListener("click", start);
-    //   return () => document.body.removeEventListener("click", start);
+    //   document.body.addEventListener("touchend", start);
+    //   console.log("11" + 1);
+    //   return () => document.body.removeEventListener("touchend", start);
     // } else if (status === 1) {
-    //   document.body.addEventListener("click", stop);
-    //   return () => document.body.removeEventListener("click", stop);
+    //   document.body.addEventListener("touchend", stop);
+    //   return () => document.body.removeEventListener("touchend", stop);
     // } else if (status === 2) {
-    //   document.body.addEventListener("click", reset);
-    //   return () => document.body.removeEventListener("click", reset);
+    //   document.body.addEventListener("touchend", reset);
+    //   return () => document.body.removeEventListener("touchend", reset);
     // }
+
+    if (status === 0) {
+      document.body.addEventListener("click", start);
+      return () => document.body.removeEventListener("click", start);
+    } else if (status === 1) {
+      document.body.addEventListener("click", stop);
+      return () => document.body.removeEventListener("click", stop);
+    } else if (status === 2) {
+      document.body.addEventListener("click", reset);
+      return () => document.body.removeEventListener("click", reset);
+    }
 
     return () => clearInterval(interval);
   });
@@ -63,9 +64,9 @@ export function Timer() {
   return (
     <div>
       <span>
-        {Math.floor((time / 6000) % 60) >= 10
-          ? Math.floor((time / 6000) % 60)
-          : "0" + Math.floor((time / 6000) % 60)}
+        {Math.floor((time / (60 * 100)) % 60) >= 10
+          ? Math.floor((time / (60 * 100)) % 60)
+          : "0" + Math.floor((time / (60 * 100)) % 60)}
       </span>
       &nbsp;&nbsp;
       <span>
