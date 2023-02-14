@@ -2,10 +2,10 @@
 
 https://christopher-yue.github.io/rubikscubetimer/
 
-This application currently only works on mobile devices.  The purose is to create a stopwatch that makes it easier to find out how fast you can solvea rubiks cube
+The purose is to create a stopwatch that makes it so you can start, stop, and reset by just clicking or tapping anywhere on a screen
 
-Once you are ready to start solving the cube, place your finger on the screen and as soon as you release your finger from the screen the stopwatch will start
+To start, place finger on screen or click anywhere, once released the timer will start
 
-Once you are done solving the cube, taap the screen again and it will stop the timer
+To stop, tap the screen again and it will stop the timer
 
 To reset the timer, just tap the screen again after it is stopped
