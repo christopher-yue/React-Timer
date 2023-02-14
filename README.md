@@ -1,6 +1,6 @@
 # rubiks cube timer
 
-https://christopher-yue.github.io/rubikscubetimer/
+https://christopher-yue.github.io/React-Timer/
 
 The purose is to create a stopwatch that makes it so you can start, stop, and reset by just clicking or tapping anywhere on a screen
 
