@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rubikscubetimer/static/css/main.a6e559e7.css",
-    "main.js": "/rubikscubetimer/static/js/main.baf6d845.js",
-    "static/js/787.28cb0dcd.chunk.js": "/rubikscubetimer/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/rubikscubetimer/index.html",
-    "main.a6e559e7.css.map": "/rubikscubetimer/static/css/main.a6e559e7.css.map",
-    "main.baf6d845.js.map": "/rubikscubetimer/static/js/main.baf6d845.js.map",
-    "787.28cb0dcd.chunk.js.map": "/rubikscubetimer/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/React-Timer/static/css/main.a6e559e7.css",
+    "main.js": "/React-Timer/static/js/main.059b7112.js",
+    "static/js/787.28cb0dcd.chunk.js": "/React-Timer/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/React-Timer/index.html",
+    "main.a6e559e7.css.map": "/React-Timer/static/css/main.a6e559e7.css.map",
+    "main.059b7112.js.map": "/React-Timer/static/js/main.059b7112.js.map",
+    "787.28cb0dcd.chunk.js.map": "/React-Timer/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6e559e7.css",
-    "static/js/main.baf6d845.js"
+    "static/js/main.059b7112.js"
   ]
 }
