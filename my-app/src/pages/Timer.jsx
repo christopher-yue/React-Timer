@@ -49,6 +49,7 @@ export function Timer() {
 
     if (status === 0) {
       document.body.addEventListener("click", start);
+      console.log("test");
       return () => document.body.removeEventListener("click", start);
     } else if (status === 1) {
       document.body.addEventListener("click", stop);
