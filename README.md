@@ -1,4 +1,4 @@
-# rubiks cube timer
+# timer/stopwatch
 
 https://christopher-yue.github.io/React-Timer/
 
